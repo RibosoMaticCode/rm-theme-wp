@@ -1,0 +1,76 @@
+@media (max-width: 767px) {
+    header .container{
+        position: initial;
+    }
+    .cont-btnmenu{
+        display: block;
+    }
+    .cont-logo {
+        text-align: center;
+    }
+    .logo img{
+        width: 180px;
+    }
+    .block-menu{
+        position: absolute;
+        width: 100%;
+        height:100vh;
+        background-color: var(--dark);
+        top:0;
+        left: -120%;
+        z-index: 1;
+
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+    .menu-expand{
+        left:0;
+    }
+    .btnMenuHide{
+        display: block;
+    }
+    .block-menu .social {
+        display: block;
+    }
+    .block-menu .menu-nav{
+        float: none;
+        margin: 20px 0 0 20px;
+    }
+    .block-menu .menu-nav li{
+        display: initial;
+    }
+    .block-menu .menu-nav li a{
+        color:var(--light);
+        font-weight: 400;
+        padding: 10px;
+    }
+    .block-menu .menu-nav li a:hover{
+        background-color: transparent;
+    }
+    .form-search{
+        left: 1%;
+        right: 1%;
+        max-width: initial;
+    }
+}
+@media (max-width: 480px) { 
+    .posts-last .post-item{
+        display: block;
+    }
+    .posts-last .post-item div{
+        width: 100%;
+        padding: initial;
+    }
+    .sidebar{
+        padding: 30px 5px;
+    }
+    .post-header .post-img {
+        height: 200px;
+    }
+    .post-content *{
+        line-height:24px!important;
+        font-size:92%!important;
+    }
+}

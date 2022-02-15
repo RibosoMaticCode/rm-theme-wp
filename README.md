@@ -1,0 +1,2 @@
+# dokosite
+ Wordpress template 
